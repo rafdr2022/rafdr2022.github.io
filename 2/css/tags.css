@@ -1,0 +1,62 @@
+p
+{
+	font-family: EB Garamond, Garamond, times;
+	font-size: 18pt;
+	text-align: justify;
+}
+
+a
+{
+	color: #505050;
+}
+
+
+h1
+{
+	background-color: black;
+	color: white;
+	font-family: EBGaramond SC, Garamond, times;
+	font-size: 34pt;
+}
+
+h2
+{
+	font-family: EBGaramond Italico, Garamond, times;
+	font-size: 26pt;
+	text-align: center;
+}
+
+h3
+{
+	font-family: EBGaramond Italico, Garamond, times;
+	font-size: 19pt;
+	text-align: left;
+}
+
+h4
+{
+	background-color: black;
+	color: white;
+	font-family: EBGaramond SC, Garamond, times;
+	font-size: 17pt;
+	text-align: justify;
+}
+
+li
+{
+	font-family: EB Garamond, Garamond, times;
+	font-size: 18pt;
+}
+
+figure
+{
+	text-align: center;
+	font-family: EB Garamond Italico, Garamond, times;
+	font-size: 14pt;
+	font-style: italic;
+}
+
+img
+{
+	width: 90%;
+}

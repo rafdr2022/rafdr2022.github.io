@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "pt_br">
+<link rel="stylesheet" href="css/classes.css" type="text/css">
+<link rel="stylesheet" href="css/tags.css" type="text/css">
+	<head>
+		<meta charset = "utf-8">
+		<meta author = "Rafael Dias Rodrigues">
+		<title>MACD</title>
+		<style>body{background-image: url('img/000_pattern6.png');}</style>
+	</head>
+	<body>
+		<header>
+			<table class = "cabecalho" width = "100%">
+				<tr>
+					<td width = "5%">
+						<a href = "00.00_main.html" alt = "logo">
+							<img class = "img_logo" src ="img/000.jpg">
+						</a>
+					</td>
+					
+					<td class = "a_cabecalho" align = "right">
+						<a class = "a_cabecalho" href = "01.01_login.html">[Login]</a>
+						<a class = "a_cabecalho" href = "01.02_pr_ac.html">[Primeiro acesso]</a>
+						<a class = "a_cabecalho" href = "99.99_sair.html">[Sair]</a>
+					</td>
+				</tr>
+			</table>
+		</header>
+		<main>
+			<h1>MACD — Média móvel de convergência e divergência</h1>
+			<p>MACD é a sigla para <em>Moving Average Convergence Divergence</em>, ou média móvel de convergência e divergência. Ela indica a "força de impulso" que as últimas negociações estão apresentando. Ela é representada juntamente de uma <u>linha de sinal</u> que é a <u>média móvel exponecial dos últimos nove períodos</u>. Sempre que as últimas negociações traspassam a linha de sinal, significa que há um forte movimento de valorização ou desvalorização do ativo, conforme a MACD se mova para cima ou para baixo em relação ao sinal.</p>
+			<p>Na figura abaixo, a MACD é representada por uma linha roxa, enquanto a linha de sinal é representada por uma linha amarela.</p>
+			
+			<figure>
+				<a href = "img/04.001.jpg" target = "_blank">
+				<img src = "img/04.001.jpg"></a>
+				<figcaption>(clique para ampliar)<br>MACD (em roxo) e sua linha de sinal (em amarelo).</figcaption>
+			</figure>
+			
+			<h2>Fórmula da MACD</h2>
+			<p>Por padrão, linha MACD é traçada segundo a diferença das <u>médias móveis exponenciais</u> dos últimos 12 períodos menos as <u>médias móveis exponenciais</u> dos últimos 26 períodos, conforme a fórmula abaixo:</p>
+			<p class = "formula"><strong>MACD</strong> = (EMA dos últimos <strong>12</strong> períodos) - (EMA dos últimos <strong>26</strong> períodos)</p>
+			<p>Este cálculo põe muito mais peso nos últimos 12 períodos em relação aos últimos 26 períodos. Como resultado, o gráfico da MACD move-se muito acentuadamente em relação à média exponencial dos últimos 9 períodos (sinal). Como resultado, ela sinaliza movimentos rápidos de alta e baixa durante o período analizado, podendo ser últil em operações de <em>swing trade</em> e <em>day trade</em>.</p>
+			<p>Um outro exemplo:</p>
+			
+			<figure>
+				<a href = "img/04.002.png" target = "_blank">
+				<img src = "img/04.002.png"></a>
+				<figcaption>(clique para ampliar)<br>MACD (em azul) e sua linha de sinal (em vermelho). É comum que o gráfico seja acompanhado de um histograma.</figcaption>
+			</figure>
+			
+			<p>Na figura acima, sempre que a linha da MACD cruzou a linha de sinal, houve forte movimento nos valores do ativo (XRP, no caso). Também pode-se observar que, quanto mais perpendicular o MACD cruza a linha de sinal, maior será o movimento de valorização e desvalorização.</p>
+			
+			<h2>Críticas</h2>
+			<p>Talvez a principal crítica que se pode fazer a esse indicador deve-se ao fato de que seus valores estão ligeiramente atrasados em relação aos valores das velas. Uma vez que ele só é formado a partir das médias móveis exponenciais, então o gráfico só será traçado depois de as velas serem formadas.</p>
+			<p>Sendo assim, a rápida valorização ou desvalorização do ativo poderá ser percebida antes pelas velas do que pelo MACD propriamente. Mesmo assim, é um indicador bastante utilizado para operações de compra e venda.</p>
+			
+			<p><em>Para continuar lendo este conteúdo, faça o <a href = "01.01_login.html">Login</a></em></p>
+			
+			
+		</main>
+		<table width = "100%" class = "cabecalho">
+				<tr>
+					<td width = "35%">
+						<p class = mini_p">
+							<img class = "mini_img" src = "img/999.jpeg"></img>
+							<img class = "mini_img" src = "img/998.jpeg"></img>
+							<img class = "mini_img" src = "img/997.jpeg"></img><br>
+							<img class = "mini_img" src = "img/996.jpeg"></img>
+							<img class = "mini_img" src = "img/995.jpeg"></img>
+							<img class = "mini_img" src = "img/994.png"></img>
+						</p>
+					</td>
+					<td width = "33%">
+						<p class = "mini_p_rodape"><strong><u>Projeto Investir</u></strong></p>
+						<p class = "mini_p_rodape">Rua X, número Y, Cidade tal</p>
+					</td>
+					
+					<td width = "31%">
+					<p class = "mini_p_rodape"><strong><u>Sobre nós</u></strong></p>
+					<p class = "mini_p_rodape"><strong>blog</strong></p>
+					<p class = "mini_p_rodape"><strong>rss</strong></p>
+					</td>
+				</tr>
+			</table>
+		</footer>
+	</body>
+</html>

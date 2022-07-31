@@ -1,0 +1,58 @@
+body
+{background-color : #101010;}
+
+h1
+{
+	font-family : monospace;
+	font-size   : 30px;
+	text-align  : center;
+	color       : #909090;
+}
+
+figcaption
+{
+	font-family : monospace;
+	font-size   : 15px;
+	width       : 250px;
+	color       : #909090;
+}
+
+figure img
+{width : 275px;}
+
+.L
+{width : 100%;}
+
+.C1, .C2, .C3
+{
+	display        : table-cell;
+	width          : 31%;
+	margin         : 2px;
+	vertical-align : center;
+}
+
+#fechar
+{
+	font-family      : monospace;
+	text-align       : center;
+	font-size        : 14px;
+	background-color : #202020;
+	color            : #909090;
+	margin           : 5px 5px 5px 5px;
+}
+
+#exibicao
+{
+	display          : none;
+	width            : 1000px;
+	position         : fixed;
+	border           : 2px solid white;
+	top              : 10px;
+	background-color : black;
+}
+
+#exibicao img
+{
+	display : inline-block;
+	width   : 1000px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = 'ptbr'>
+	<head>
+		<meta charset = 'utf8'>
+		<meta author = 'Rafael Dias Rodrigues'>
+		<link rel = 'stylesheet' href = 'css.css'>
+		<style>body{background-image: url('Galeria/MUNCH_10.jpg');}</style>
+		<title>Galeria de pinturas expressionistas</title>
+	</head>
+	<body>
+		<h1>Galeria de pinturas expressionistas</h1>
+		<p>Escolha no seletor abaixo algum dos artistas do período expressionista. Em seguida, clique em 'Ver' para visualizar as imagens.</p>
+		
+		<form method = 'POST' action = '01.html'>
+			<select name = 'Artistas' id = 'artistas' size = '1'>
+				<option value = 'Galeria/DEGAS'>Degas</option>
+				<option value = 'Galeria/GOGH'>Gogh</option>
+				<option value = 'Galeria/MONET'>Monet</option>
+				<option value = 'Galeria/MUNCH'>Munch</option>
+			</select>
+			<input type = 'button' value = 'Ver' name = 'ver' onclick = 'LerSelect();MostrarImg();'>
+		</form>
+	</body>
+		
+	<script>
+		var artista;
+		var z = 0;
+		
+		function LerSelect()
+		{
+			artista = document.getElementById('artistas').value;
+		}
+		
+		function MostrarImg()
+		{
+			switch (artista){
+				case 'Galeria/DEGAS':
+					z = 16;
+					break;
+				case 'Galeria/GOGH':
+					z = 18;
+					break;
+				case 'Galeria/MONET':
+					z = 11;
+					break;
+				case 'Galeria/MUNCH':
+					z = 33;
+					break;
+			}
+			
+			for(let i = 0; i < z; i++){
+					nome = artista + "_" + i + ".jpg";
+					document.write("<a href = '"+nome+"'><img src = '"+nome+"' width = '200px' target = '_blank'></img></a>");
+			}
+		}
+	</script>
+</html>

@@ -1,0 +1,92 @@
+@font-face
+{
+	font-family: "EBGaramond";
+	src: url("../fontes/EBGaramond08-Regular.woff");
+}
+
+@font-face
+{
+	font-family: "EBGaramond SC";
+	src: url("../fontes/EBGaramond12-AllSC.woff");
+}
+
+@font-face
+{
+	font-family: "EBGaramond Italico";
+	src: url("../fontes/EBGaramond12-Italic.woff");
+}
+
+.formula
+{
+	font-family: sans-serif;
+	font-size: 18pt;
+	text-align: center;
+}
+
+.img_50
+{
+	width: 50%;
+}
+
+
+.mini_img
+{
+	width: 80px;
+}
+
+.mini_p_rodape
+{
+	font-size: 14pt;
+	color: white;
+	text-align: center;
+	font-family: EBGaramond SC, Garamond, times;
+}
+
+.mini_p
+{
+	font-size: 15pt;
+	font-family: EBGaramond Italico, Garamond, times;
+}
+
+
+.img_logo
+{
+	width: 64px;
+}
+
+.div_direita
+{
+	/*O padding adiciona espaço tanto do lado de dentro quanto do lado de fora do div. Para evitar isso, usa-se o atributo box-sizing: border-box. Assim, o lado externo da div não tem o padding alterado.*/
+	box-sizing: border-box;
+	padding: 3px;
+	width: 21%;
+	float: right;
+	margin-top: 0px;
+	border: 1px solid #969696;
+	text-align: center;
+}
+
+.div_centro
+{
+	/*O padding adiciona espaço tanto do lado de dentro quanto do lado de fora do div. Para evitar isso, usa-se o atributo box-sizing: border-box. Assim, o lado externo da div não tem o padding alterado.*/
+	box-sizing: border-box;
+	padding: 10px;
+	width: 78%;
+	float: left;
+	border: 1px solid #969696;
+}
+
+.cabecalho
+{
+	background-color: black;
+	color: white;
+	text-align: right;
+	padding: 3px;
+	font-family: EBGaramond SC, Garamond, times;
+}
+
+.a_cabecalho
+{
+	color: #969696;
+}
+
